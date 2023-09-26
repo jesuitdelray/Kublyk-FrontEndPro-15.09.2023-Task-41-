@@ -3,9 +3,11 @@ import styles from "./Header.module.scss"
 
 function Header() {
     return (
-        <header className={styles.wrapper}>
-            <h1>Заголовок</h1>
-        </header>
+        <div className={styles.wrapper}>
+            <div className={styles.container}>
+                <h1>Заголовок</h1>
+            </div>
+        </div>
     )
 }
 

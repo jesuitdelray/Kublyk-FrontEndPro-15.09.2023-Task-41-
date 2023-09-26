@@ -3,10 +3,12 @@ import styles from "./Content.module.scss"
 
 function Content() {
     return (
-        <main className={styles.wrapper}>
-            <h2>Центральний контент</h2>
-            <p>Довільний контент тут.</p>
-        </main>
+        <div className={styles.wrapper}>
+            <div className={styles.content}>
+                <h2>Центральний контент</h2>
+                <p>Довільний контент тут.</p>
+            </div>
+        </div>
     )
 }
 

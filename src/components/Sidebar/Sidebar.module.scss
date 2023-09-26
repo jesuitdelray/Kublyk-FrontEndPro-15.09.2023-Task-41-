@@ -1,0 +1,13 @@
+.wrapper {
+    background-color: var(--color-sidebar-initial);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    top: 0;
+    width: var(--width-sidebar);
+}
+
+.container {
+    margin-left: var(--margin-m);
+}

@@ -4,8 +4,14 @@ import styles from "./Sidebar.module.scss"
 function Sidebar() {
     return (
         <main className={styles.wrapper}>
-            <h2>Центральний контент</h2>
-            <p>Довільний контент тут.</p>
+            <div className={styles.container}>
+                <h2>Сайдбар</h2>
+                <ul>
+                    <li>One</li>
+                    <li>Two</li>
+                    <li>Three</li>
+                </ul>
+            </div>
         </main>
     )
 }
